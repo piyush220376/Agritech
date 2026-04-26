@@ -1,0 +1,22 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore sensitive environment variables
+.env
+.env.*
+
+# Ignore models due to GitHub's 100MB file limit
+# (Upload these separately to Google Drive or GitHub Releases)
+models/
+plant_detection/*.h5
+
+# Ignore IDE/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
